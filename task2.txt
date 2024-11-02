@@ -1,0 +1,59 @@
+Student Grade Calculator: 
+
+The Student Grade Calculator is a tool designed to assess student performance based on their marks in various subjects. Here’s a detailed breakdown of the process involved in calculating total marks, average percentage, and assigning grades.
+
+1. Input Marks
+The first step involves collecting data from the user. This is done by asking for the marks obtained in each subject, typically on a scale of 0 to 100. The user can input the marks for a predefined number of subjects, which is determined before the calculation begins.
+
+2. Calculate Total Marks
+Once all marks have been inputted, the next step is to calculate the total marks. This is done by summing all the individual marks obtained across all subjects:
+
+Total Marks
+=
+∑
+(
+Marks in Subject 1
++
+Marks in Subject 2
++
+…
++
+Marks in Subject N
+)
+Total Marks=∑(Marks in Subject 1+Marks in Subject 2+…+Marks in Subject N)
+3. Calculate Average Percentage
+The average percentage is computed by dividing the total marks by the total possible marks (which is the number of subjects multiplied by 100):
+
+Average Percentage
+=
+(
+Total Marks
+Total Possible Marks
+)
+×
+100
+Average Percentage=( 
+Total Possible Marks
+Total Marks
+​
+ )×100
+Where:
+
+Total Possible Marks = Number of Subjects × 100
+4. Grade Calculation
+Based on the average percentage, a grade is assigned according to predefined criteria. The grading system typically categorizes performance as follows:
+
+A+: 90 - 100%
+A: 80 - 89%
+B: 70 - 79%
+C: 60 - 69%
+D: 50 - 59%
+F: Below 50%
+This grading system provides a clear indication of the student's performance level.
+
+5. Display Results
+Finally, the results are displayed to the user. This includes:
+
+The total marks obtained.
+The calculated average percentage.
+The corresponding grade based on the average percentage.
